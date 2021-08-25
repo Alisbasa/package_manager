@@ -1,0 +1,25 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "Práctica de ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor index.js",
+    "lint": "./node_modules/.bin/eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app",
+    "demo"
+  ],
+  "author": "Alejandro Isaac Baca Sierra",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.0"
+  }
+}
